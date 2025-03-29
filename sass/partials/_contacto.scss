@@ -1,0 +1,46 @@
+main {
+
+    .contacto-form {
+        font-family: $letra;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+
+        h3{
+            color: white;
+            font-family: $letra;
+            font-size: 3rem;
+        }
+        .formulario {
+            text-align: left;
+            border-radius: 50px;
+            padding: 20px;
+            width: 20%;
+            height: 500px;
+            justify-self: center;
+            background-color: grey;
+            color: white;
+            margin-right: 200px;
+            align-content: center;
+            .boton{
+                background-color: $rosa;
+                font-family: $letra;
+                border-radius: 50px;
+                transition: transform 0.3s ease;
+                font-size: large;
+                border-color: $rosa;
+            }
+            .boton:hover {
+                transform: scale(1.1);
+            }
+        }
+        .imagenbg3{
+            width: 50%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,125 @@
+header {
+    a {
+        font-family: $letra;
+    }
+
+    .logo {
+        width: 250px; // Ajusta según sea necesario
+        height: auto;
+    }
+}
+
+footer {
+    margin-top: 150px;
+    background-color: $rosa;
+    height: 160px;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .vacio {
+        height: 140px;
+        width: auto;
+        
+        img {
+            height: 2px;
+            width: 220px;
+        }
+    }
+
+    img {
+
+        height: 100px;
+        width: auto;
+    }
+
+    div {
+        .card {
+            width: fit-content;
+            height: fit-content;
+            background-color: $rosa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px 25px;
+            gap: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+            flex-direction: row;
+
+            /* for all social containers*/
+            .socialContainer {
+                width: 52px;
+                height: 52px;
+                border-radius: 50px;
+                background-color: rgb(44, 44, 44);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                transition-duration: 0.3s;
+            }
+
+            /* instagram*/
+            .containerOne:hover {
+                background-color: #d62976;
+                transition-duration: 0.3s;
+            }
+
+            /* Tiktok*/
+            .containerTwo:hover {
+                background-color: #25f4ee;
+                transition-duration: 0.3s;
+            }
+
+            /* Facebook*/
+            .containerThree:hover {
+                background-color: #1877f2;
+                transition-duration: 0.3s;
+            }
+
+            /* Whatsapp*/
+            .containerFour:hover {
+                background-color: green;
+                transition-duration: 0.3s;
+            }
+
+            .socialContainer:active {
+                transform: scale(0.9);
+                transition-duration: 0.3s;
+            }
+
+            .socialSvg {
+                width: 19px;
+            }
+
+            .largeIcon {
+                width: 27px;
+                /* Ancho específico solo para el icono de TikTok */
+            }
+
+            .socialSvg path {
+                fill: rgb(255, 255, 255);
+            }
+
+            .socialContainer:hover .socialSvg {
+                animation: slide-in-top 0.3s both;
+            }
+
+            @keyframes slide-in-top {
+                0% {
+                    transform: translateY(-50px);
+                    opacity: 0;
+                }
+
+                100% {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+}

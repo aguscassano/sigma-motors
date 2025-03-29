@@ -1,0 +1,302 @@
+main {
+    section{
+        .boton{
+            background-color: $rosa;
+            font-family: $letra;
+            border-radius: 50px;
+            transition: transform 0.3s ease;
+            font-size: large;
+            border-color: $rosa;
+            margin-right: 80px;
+        }
+
+        .boton2{
+            align-self: self-end;
+        }
+        .boton:hover {
+            transform: scale(1.1);
+            background-color: $rosa;
+            border-color: $rosa;
+        }
+    }
+    .s-catalogo {
+        font-family: $letra;
+
+        .n-catalogo {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                color: grey;
+                width: 30%;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            h3{
+                font-size: 2.2rem;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        .swiper-container {
+            width: 100%;
+            height: 300px;
+            padding: 20px 0;
+            background-color: black;
+            position: relative; /* Asegura que los botones sean visibles */
+            overflow: hidden;
+            
+
+            /* Ajustar los botones de navegación */
+            .swiper-button-prev,
+            .swiper-button-next {
+                width: 40px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                z-index: 10; /* Asegura que estén sobre el carrusel */
+            }
+
+            /* Botón de navegación exclusivo del carrusel lg */
+            .lg-prev {
+                left: 10px;
+            }
+
+            .lg-next {
+                right: 10px;
+            }
+
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+        .lg .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            opacity: 0.5;
+            filter: grayscale(100%);
+            transition: all 0.5s ease;
+        }
+
+        .lg .swiper-slide-active,
+        .lg .swiper-slide-prev,
+        .lg .swiper-slide-next {
+            opacity: 1;
+            filter: grayscale(0%);
+            transform: scale(1.2);
+        }
+
+        .swiper-slide a img {
+            width: 100px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .swiper-slide a img:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .carru-motos {
+        font-family: $letra;
+        div {
+            .linea {
+                justify-self: end;
+                margin-right: 150px;
+                background-color: white;
+                margin-top: 80px;
+                .linea-rosa {
+                    color: $rosa;
+                    font-family: $letra;
+                    font-weight: bolder;
+                    font-size: 1.5rem;
+                }
+                a {
+                    background-color: white;
+                    border-color: white;
+                    font-family: $letra;
+                }
+                .active {
+                    background-color: grey;
+                }
+            }
+        }
+        .imagenbghonda {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h3 {
+                font-family: $letra;
+                font-size: 4rem;
+                font-weight: bolder;
+                color: white;
+            }
+        }
+
+        .swiper-container {
+            justify-self: center;
+            width: 90%;
+            height: 500px;
+            padding: 20px 0;
+            position: relative; /* Necesario para los botones */
+            overflow: hidden;
+
+            /* Ajuste para los botones de navegación del segundo carrusel */
+            .moto-prev,
+            .moto-next {
+                width: 50px;
+                height: 50px;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                z-index: 10;
+            }
+
+            .moto-prev {
+                left: 10px;
+            }
+
+            .moto-next {
+                right: 10px;
+            }
+
+            .swiper-button-prev::after,
+            .swiper-button-next::after {
+                font-size: 20px;
+                color: white;
+            }
+        }
+
+        .moto .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-direction: column;
+
+            h5{
+                color: grey;
+                margin-top: 30px;
+            }
+
+            img {
+                width: 400px;
+                height: auto;
+                transition: transform 0.3s ease;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 33.33%;
+                object-fit: cover;
+                width: 100px;
+            }
+        }
+    }
+
+    .sect-yt {
+        margin-right: 0;
+        .vid-container {
+            width: 50%;
+            img{
+                width: 100%;
+                height: 600px;
+            }
+        }
+        .yt-txt2 {
+            width: 50%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0;
+            h2, p{
+                color: white;
+                align-self: self-end;
+                width: 60%;
+                text-align: end;
+                margin-right: 80px;
+            }
+
+            h2 {
+                font-size: 3rem;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 1.5rem;
+                color: grey;
+            }
+        }
+    }
+
+
+    .casa2 {
+        width: 100%;
+        font-family: $letra;
+        margin-top: 80px;
+        .contado-iz{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            img {
+                width: 100%;
+                height: auto;
+                margin-left: 50px;
+                margin-top: 10px;
+            }
+            .c-contado{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                h3 {
+                    font-family: $letra;
+                    color: grey;
+                }
+                .highlight{
+                    color: black;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+    .specs {
+        font-family: $letra;
+        margin-top: 80px;
+        margin-left: 120px;
+        margin-right: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+
+        h5 {
+            color: $rosa;
+        }
+    }
+}

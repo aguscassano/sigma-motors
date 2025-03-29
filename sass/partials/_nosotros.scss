@@ -1,0 +1,132 @@
+main {
+    .somos {
+        font-family: $letra;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .imagenbg {
+            width: 50%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .somos-txt {
+            width: 50%;
+            padding: 50px;
+
+            p{
+                align-self: center;
+                color: grey;
+                font-size: 1.2rem;
+            }
+            .highlight {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .pq-nos{
+        font-family: $letra;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+
+        .imagenbg2{
+            width: 100%;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .porque {
+        font-family: $letra;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 50px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h6,
+            p {
+                text-align: center;
+                width: 70%;
+                font-family: $letra;
+            }
+            h6 {
+                color: $rosa;
+                font-weight: bold;
+                font-size: large;
+            }
+            img {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                height: 100px;
+                width: 100px;
+                justify-self: center;
+            }
+        }
+    }
+
+    .moto {
+        font-family: $letra;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        .moto-img {
+            width: 50%;
+            
+            img {
+                width: 100%;
+                height: 600px;
+            }
+        }
+
+        .moto-txt{
+            font-family: $letra;
+            width: 50%;
+            padding: 50px;
+            text-align: right;
+            margin-right: 70px;
+            .boton{
+                background-color: $rosa;
+                font-family: $letra;
+                border-radius: 50px;
+                transition: transform 0.3s ease;
+                font-size: large;
+                border-color: $rosa;
+                align-self: self-end;
+            }
+            .boton:hover {
+                transform: scale(1.1);
+            }
+            .highlight {
+                font-weight: bolder;
+            }
+            h5 {
+                font-size: 3rem;
+                width: 60%;
+                justify-self: end;
+            }
+            p {
+                font-size: 1.5rem;
+                width: 60%;
+                justify-self: end;
+                color: grey;
+            }
+        }
+    }
+}

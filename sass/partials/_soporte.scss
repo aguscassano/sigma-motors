@@ -1,0 +1,57 @@
+main {
+    .soporte {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: $letra;
+            text-align: center;
+            width: 40%;
+            color: white;
+        }
+        h3 {
+            color: white;
+            font-size: 2.4rem;
+        }
+
+        .boton{
+            background-color: $rosa;
+            font-family: $letra;
+            border-radius: 50px;
+            transition: transform 0.3s ease;
+            font-size: large;
+            border-color: $rosa;
+        }
+        .boton:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .cel-sop {
+        font-family: $letra;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 100px;
+        .num-sop {
+            display: flex;
+            margin-left: 20px;
+            align-items: center;
+            width: 100%;
+            justify-content: space-around;
+            
+            h5 {
+                color: $rosa;
+            }
+        }
+
+        .jus-sop {
+            width: 40%;
+        }
+    }
+}

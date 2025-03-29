@@ -1,0 +1,163 @@
+main {
+    .casa {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .carrusel-txt {
+            width: 40%;
+            justify-items: start;
+            margin-left: 100px;
+            font-family: $letra;
+            
+            .highlight{
+                font-weight: bolder;
+            }
+
+            h1, p {
+                width: 70%;
+            }
+            
+
+            .boton{
+                background-color: $rosa;
+                font-family: $letra;
+                border-radius: 50px;
+                transition: transform 0.3s ease;
+                font-size: large;
+                border-color: $rosa;
+
+            }
+            .boton:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .carousel-container {
+            margin-right: 0;
+            position: relative;
+            width: 50%;
+            height: 600px;
+        }
+
+        /* Estilo para las miniaturas (previsualización de las imágenes) */
+        .carousel-thumbnails {
+            position: absolute;
+            bottom: 0;
+            /* Eleva las miniaturas sobre el carrusel */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 2;
+            /* Las miniaturas deben estar encima del carrusel */
+            padding-bottom: 10px;
+        }
+
+        .carousel-thumbnail {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+            /* Bordes redondeados */
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        /* Efecto de agrandado al pasar el ratón */
+        .carousel-thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        /* Estilo del carrusel */
+        #carouselExample {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* Controles del carrusel */
+        .carousel-control-prev,
+        .carousel-control-next {
+            z-index: 3;
+            /* Asegura que los controles del carrusel estén encima */
+        }
+    }
+
+    .sect-yt {
+        margin-top: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .yt-txt {
+            width: 50%;
+            justify-items: start;
+            font-family: $letra;
+            p {
+                width: 60%;
+                margin-left: 100px;
+            }
+            .boton{
+                background-color: $rosa;
+                font-family: $letra;
+                border-radius: 50px;
+                transition: transform 0.3s ease;
+                font-size: large;
+                border-color: $rosa;
+                margin-left: 100px;
+            }
+            .boton:hover {
+                transform: scale(1.1);
+            }
+            h2 {
+                color: grey;
+                margin-left: 100px;
+            }
+            .highlight {
+                font-weight: bolder;
+            }
+            h3 {
+                font-size: 3rem;
+                margin-left: 100px;
+            }
+        }
+        .vid-container{
+            width: 50%;
+            .yt-vid {
+                width: 100%;
+                height: auto;
+                margin-right: 0;
+            }
+        }
+        
+    }
+
+    .ubi {
+        margin-top: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .ubi-txt {
+            width: 40%;
+            justify-items: start;
+            margin-left: 100px;
+            font-family: $letra;
+
+            p {
+                width: 60%;
+            }
+            .highlight {
+                font-weight: bolder;
+            }
+        }
+
+        .map {
+            width: 50%;
+            height: auto;
+            .mapit{
+                width: 100%;
+            }
+        }
+    }
+}
