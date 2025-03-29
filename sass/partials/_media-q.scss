@@ -1,5 +1,6 @@
 @media (max-width: 500px) {
     main {
+        
         .s-catalogo {
             .n-catalogo {
                 p{
@@ -76,6 +77,7 @@
             justify-content: center;
             margin: 0;
             margin-top: 20px;
+            width: 100%;
 
             .yt-txt2{
                 width: 100%;
@@ -83,7 +85,7 @@
                 h2, p{
                     align-self: center;
                     text-align: center;
-                    width: 90%;
+                    width: 100%;
                     margin-right: 0;
                 }
                 .boton {
@@ -93,7 +95,7 @@
             }
 
             .yt-txt {
-                width: 90%;
+                width: 100%;
                 justify-items: center;
                 margin-left: 0;
                 margin-right: 0;
@@ -104,7 +106,7 @@
                 p, h2, h3 {
                     margin-left: 0;
                     margin-right: 0;
-                    width: 80%;
+                    width: 100%;
                     padding: 0;
                 }
                 h3 {
@@ -278,6 +280,14 @@
                 margin-top: 20px;
             }
         }
+        .sect-yt2{
+            width: 100%;
+            
+
+            h2, h3, p {
+                width: 100%;
+            }
+        }
     }
 
     footer {
@@ -312,5 +322,6 @@
             }
         }
     }
+    
 
 }
