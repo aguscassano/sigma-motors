@@ -96,12 +96,14 @@
                 width: 90%;
                 justify-items: center;
                 margin-left: 0;
+                margin-right: 0;
                 text-align: center;
                 justify-content: center;
-                margin-right: 0;
+                
 
                 p, h2, h3 {
                     margin-left: 0;
+                    margin-right: 0;
                     width: 80%;
                 }
                 .boton{
@@ -157,6 +159,8 @@
 
                 h2,p {
                     margin: 0;
+                    text-align: center;
+                    justify-items: center;
                 }
             }
             .map{
