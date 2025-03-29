@@ -74,6 +74,7 @@
         .sect-yt {
             flex-direction: column;
             justify-content: center;
+            margin: 0;
             margin-top: 20px;
 
             .yt-txt2{
@@ -144,11 +145,13 @@
         }
         .ubi {
             flex-direction: column;
+            margin: 0;
             margin-top: 20px;
 
             .ubi-txt {
                 width: 100%;
                 margin-left: 0;
+                margin: 0;
                 text-align: center;
                 justify-items: center;
             }
