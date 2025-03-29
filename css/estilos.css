@@ -787,6 +787,7 @@ main .contacto-form .imagenbg3 {
   main .sect-yt {
     flex-direction: column;
     justify-content: center;
+    margin: 0;
     margin-top: 20px;
   }
   main .sect-yt .yt-txt2 {
@@ -807,13 +808,19 @@ main .contacto-form .imagenbg3 {
     width: 90%;
     justify-items: center;
     margin-left: 0;
+    margin-right: 0;
     text-align: center;
     justify-content: center;
-    margin-right: 0;
+    padding: 0;
   }
   main .sect-yt .yt-txt p, main .sect-yt .yt-txt h2, main .sect-yt .yt-txt h3 {
     margin-left: 0;
+    margin-right: 0;
     width: 80%;
+    padding: 0;
+  }
+  main .sect-yt .yt-txt h3 {
+    font-size: 2rem;
   }
   main .sect-yt .yt-txt .boton {
     margin-left: 0;
@@ -846,13 +853,24 @@ main .contacto-form .imagenbg3 {
   }
   main .ubi {
     flex-direction: column;
+    margin: 0;
     margin-top: 20px;
+    padding: 0;
   }
   main .ubi .ubi-txt {
     width: 100%;
     margin-left: 0;
+    margin: 0;
     text-align: center;
     justify-items: center;
+    padding: 0;
+  }
+  main .ubi .ubi-txt h2, main .ubi .ubi-txt p {
+    margin: 0;
+    text-align: center;
+    justify-items: center;
+    padding: 0;
+    width: 100%;
   }
   main .ubi .map {
     width: 100%;
