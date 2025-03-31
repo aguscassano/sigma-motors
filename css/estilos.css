@@ -190,8 +190,8 @@ footer div .card {
   justify-content: center;
   padding: 25px 25px;
   gap: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
   flex-direction: row;
+  border-color: #cf0044;
   /* for all social containers*/
   /* instagram*/
   /* Tiktok*/
