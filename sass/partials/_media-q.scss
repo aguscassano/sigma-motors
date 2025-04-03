@@ -1,5 +1,15 @@
 @media (max-width: 500px) {
     main {
+        .formulario2 {
+            width: 90%;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+        .form-page{
+            h3{
+                text-align: center;
+            }
+        }
         
         .s-catalogo {
             .n-catalogo {
@@ -293,6 +303,7 @@
     footer {
         flex-direction: column;
         height: 200px;
+        margin-top: 30px;
         div {
             .card{
                 height: 55px;

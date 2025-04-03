@@ -1,0 +1,25 @@
+main {
+    .formulario2 {
+        margin-top: 80px;
+        text-align: left;
+        border-radius: 50px;
+        padding: 20px;
+        width: 20%;
+        height: 500px;
+        justify-self: center;
+        background-color: grey;
+        color: white;
+        align-content: center;
+        .boton{
+            background-color: $rosa;
+            font-family: $letra;
+            border-radius: 50px;
+            transition: transform 0.3s ease;
+            font-size: large;
+            border-color: $rosa;
+        }
+        .boton:hover {
+            transform: scale(1.1);
+        }
+    }
+}
