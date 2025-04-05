@@ -354,6 +354,7 @@ main .moto .moto-txt .boton {
   font-size: large;
   border-color: #cf0044;
   align-self: self-end;
+  margin-right: 0;
 }
 main .moto .moto-txt .boton:hover {
   transform: scale(1.1);
@@ -415,7 +416,6 @@ main .s-catalogo .swiper-container {
   width: 100%;
   height: 300px;
   padding: 20px 0;
-  background-color: black;
   position: relative; /* Asegura que los botones sean visibles */
   overflow: hidden;
   /* Ajustar los botones de navegación */
@@ -772,8 +772,19 @@ main .formulario2 .boton:hover {
     margin-left: 0;
     margin-right: 0;
   }
-  main .s-catalogo .swiper-container {
-    height: 200px;
+  main .s-catalogo .lg {
+    height: 100px;
+    width: 95%;
+    justify-self: center;
+  }
+  main .s-catalogo .lg .swiper-wrapper img {
+    width: 60px;
+    height: 60px;
+  }
+  main .s-catalogo .lg .lg-prev,
+  main .s-catalogo .lg .lg-next {
+    width: 0;
+    height: 0;
   }
   main .carru-motos div .linea {
     margin-right: 0;
@@ -785,6 +796,7 @@ main .formulario2 .boton:hover {
   main .carru-motos .swiper-container {
     height: 200px;
     width: 95%;
+    justify-self: center;
   }
   main .carru-motos .swiper-container .moto-prev,
   main .carru-motos .swiper-container .moto-next {
