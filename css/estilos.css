@@ -381,7 +381,7 @@ main section .boton {
   transition: transform 0.3s ease;
   font-size: large;
   border-color: #cf0044;
-  margin-right: 80px;
+  margin-right: 0px;
 }
 main section .boton2 {
   align-self: self-end;
@@ -390,6 +390,9 @@ main section .boton:hover {
   transform: scale(1.1);
   background-color: #cf0044;
   border-color: #cf0044;
+}
+main section .boton3 {
+  margin-right: 80px;
 }
 main .s-catalogo {
   font-family: "DM Sans", sans-serif;
