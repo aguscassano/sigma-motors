@@ -72,7 +72,7 @@
         .casa {
             flex-direction: column;
             justify-content: center;
-
+            margin-top: 40px;
             .carrusel-txt{
                 margin-left:0;
                 width: 90%;
@@ -150,6 +150,11 @@
                 .yt-vid {
                     width: 100%;
                     height: auto;
+                    margin-top: 20px;
+                }
+                .video-yt{
+                    width: 100%;
+                    height: 300px;
                     margin-top: 20px;
                 }
             }

@@ -567,7 +567,7 @@ main .sect-yt {
 main .sect-yt .vid-container {
   width: 50%;
 }
-main .sect-yt .vid-container img {
+main .sect-yt .vid-container .video-yt {
   width: 100%;
   height: 600px;
 }
@@ -579,6 +579,7 @@ main .sect-yt .yt-txt2 {
   align-items: center;
   justify-content: center;
   margin-right: 0;
+  margin-top: -6px;
 }
 main .sect-yt .yt-txt2 h2, main .sect-yt .yt-txt2 p {
   color: white;
@@ -806,6 +807,7 @@ main .formulario2 .boton:hover {
   main .casa {
     flex-direction: column;
     justify-content: center;
+    margin-top: 40px;
   }
   main .casa .carrusel-txt {
     margin-left: 0;
@@ -877,6 +879,11 @@ main .formulario2 .boton:hover {
   main .sect-yt .vid-container .yt-vid {
     width: 100%;
     height: auto;
+    margin-top: 20px;
+  }
+  main .sect-yt .vid-container .video-yt {
+    width: 100%;
+    height: 300px;
     margin-top: 20px;
   }
   main .casa2 .contado-iz {
