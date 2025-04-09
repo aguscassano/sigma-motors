@@ -290,6 +290,63 @@ main {
                 }
             }
         }
+        .carousel-container {
+            margin-right: 0;
+            position: relative;
+            
+            height: 600px;
+            width: 600px;
+            margin-right: 80px;
+            
+            .carousel-inner {
+                img {
+                    height: 600px;
+                    width: 600px;
+                }
+            }
+        }
+
+        /* Estilo para las miniaturas (previsualización de las imágenes) */
+        .carousel-thumbnails {
+            position: absolute;
+            bottom: 0;
+            /* Eleva las miniaturas sobre el carrusel */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 2;
+            /* Las miniaturas deben estar encima del carrusel */
+            padding-bottom: 10px;
+        }
+
+        .carousel-thumbnail {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+            /* Bordes redondeados */
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        /* Efecto de agrandado al pasar el ratón */
+        .carousel-thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        /* Estilo del carrusel */
+        #carouselExample {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* Controles del carrusel */
+        .carousel-control-prev,
+        .carousel-control-next {
+            z-index: 3;
+            /* Asegura que los controles del carrusel estén encima */
+        }
     }
 
     .specs {

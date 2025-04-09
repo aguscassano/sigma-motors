@@ -1,0 +1,1054 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+}
+
+main .casa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Estilo para las miniaturas (previsualización de las imágenes) */
+  /* Efecto de agrandado al pasar el ratón */
+  /* Estilo del carrusel */
+  /* Controles del carrusel */
+}
+main .casa .carrusel-txt {
+  width: 40%;
+  justify-items: start;
+  margin-left: 100px;
+  font-family: "DM Sans", sans-serif;
+}
+main .casa .carrusel-txt .highlight {
+  font-weight: bolder;
+}
+main .casa .carrusel-txt h1, main .casa .carrusel-txt p {
+  width: 70%;
+}
+main .casa .carrusel-txt .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+}
+main .casa .carrusel-txt .boton:hover {
+  transform: scale(1.1);
+}
+main .casa .carousel-container {
+  margin-right: 0;
+  position: relative;
+  width: 50%;
+  height: 600px;
+}
+main .casa .carousel-thumbnails {
+  position: absolute;
+  bottom: 0;
+  /* Eleva las miniaturas sobre el carrusel */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
+  /* Las miniaturas deben estar encima del carrusel */
+  padding-bottom: 10px;
+}
+main .casa .carousel-thumbnail {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+main .casa .carousel-thumbnail:hover {
+  transform: scale(1.1);
+}
+main .casa #carouselExample {
+  width: 100%;
+  overflow: hidden;
+}
+main .casa .carousel-control-prev,
+main .casa .carousel-control-next {
+  z-index: 3;
+  /* Asegura que los controles del carrusel estén encima */
+}
+main .sect-yt {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sect-yt .yt-txt {
+  width: 50%;
+  justify-items: start;
+  font-family: "DM Sans", sans-serif;
+}
+main .sect-yt .yt-txt p {
+  width: 60%;
+  margin-left: 100px;
+}
+main .sect-yt .yt-txt .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+  margin-left: 100px;
+}
+main .sect-yt .yt-txt .boton:hover {
+  transform: scale(1.1);
+}
+main .sect-yt .yt-txt h2 {
+  color: grey;
+  margin-left: 100px;
+}
+main .sect-yt .yt-txt .highlight {
+  font-weight: bolder;
+}
+main .sect-yt .yt-txt h3 {
+  font-size: 3rem;
+  margin-left: 100px;
+}
+main .sect-yt .vid-container {
+  width: 50%;
+}
+main .sect-yt .vid-container .yt-vid {
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+}
+main .ubi {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .ubi .ubi-txt {
+  width: 40%;
+  justify-items: start;
+  margin-left: 100px;
+  font-family: "DM Sans", sans-serif;
+}
+main .ubi .ubi-txt p {
+  width: 60%;
+}
+main .ubi .ubi-txt .highlight {
+  font-weight: bolder;
+}
+main .ubi .map {
+  width: 50%;
+  height: auto;
+}
+main .ubi .map .mapit {
+  width: 100%;
+}
+
+header a {
+  font-family: "DM Sans", sans-serif;
+}
+header .logo {
+  width: 250px;
+  height: auto;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: #cf0044;
+  height: 160px;
+  justify-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .vacio {
+  height: 140px;
+  width: auto;
+}
+footer .vacio img {
+  height: 2px;
+  width: 220px;
+}
+footer img {
+  height: 100px;
+  width: auto;
+}
+footer div .card {
+  width: fit-content;
+  height: fit-content;
+  background-color: #cf0044;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  flex-direction: row;
+  border-color: #cf0044;
+  /* for all social containers*/
+  /* instagram*/
+  /* Tiktok*/
+  /* Facebook*/
+  /* Whatsapp*/
+}
+footer div .card .socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+footer div .card .containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+}
+footer div .card .containerTwo:hover {
+  background-color: #25f4ee;
+  transition-duration: 0.3s;
+}
+footer div .card .containerThree:hover {
+  background-color: #1877f2;
+  transition-duration: 0.3s;
+}
+footer div .card .containerFour:hover {
+  background-color: green;
+  transition-duration: 0.3s;
+}
+footer div .card .socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+footer div .card .socialSvg {
+  width: 19px;
+}
+footer div .card .largeIcon {
+  width: 27px;
+  /* Ancho específico solo para el icono de TikTok */
+}
+footer div .card .socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+footer div .card .socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+main .somos {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .somos .imagenbg {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .somos .somos-txt {
+  width: 50%;
+  padding: 50px;
+}
+main .somos .somos-txt p {
+  align-self: center;
+  color: grey;
+  font-size: 1.2rem;
+}
+main .somos .somos-txt .highlight {
+  font-weight: bolder;
+}
+main .pq-nos {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+main .pq-nos .imagenbg2 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .porque {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+}
+main .porque div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .porque div h6,
+main .porque div p {
+  text-align: center;
+  width: 70%;
+  font-family: "DM Sans", sans-serif;
+}
+main .porque div h6 {
+  color: #cf0044;
+  font-weight: bold;
+  font-size: large;
+}
+main .porque div img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
+  justify-self: center;
+}
+main .moto {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+main .moto .moto-img {
+  width: 50%;
+}
+main .moto .moto-img img {
+  width: 100%;
+  height: 600px;
+}
+main .moto .moto-txt {
+  font-family: "DM Sans", sans-serif;
+  width: 50%;
+  padding: 50px;
+  text-align: right;
+  margin-right: 70px;
+}
+main .moto .moto-txt .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+  align-self: self-end;
+  margin-right: 0;
+}
+main .moto .moto-txt .boton:hover {
+  transform: scale(1.1);
+}
+main .moto .moto-txt .highlight {
+  font-weight: bolder;
+}
+main .moto .moto-txt h5 {
+  font-size: 3rem;
+  width: 60%;
+  justify-self: end;
+}
+main .moto .moto-txt p {
+  font-size: 1.5rem;
+  width: 60%;
+  justify-self: end;
+  color: grey;
+}
+
+main section .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+  margin-right: 0px;
+}
+main section .boton2 {
+  align-self: self-end;
+}
+main section .boton:hover {
+  transform: scale(1.1);
+  background-color: #cf0044;
+  border-color: #cf0044;
+}
+main section .boton3 {
+  margin-right: 80px;
+}
+main .s-catalogo {
+  font-family: "DM Sans", sans-serif;
+}
+main .s-catalogo .n-catalogo {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .s-catalogo .n-catalogo p {
+  color: grey;
+  width: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main .s-catalogo .n-catalogo h3 {
+  font-size: 2.2rem;
+  color: white;
+  font-weight: bold;
+}
+main .s-catalogo .swiper-container {
+  width: 100%;
+  height: 300px;
+  padding: 20px 0;
+  position: relative; /* Asegura que los botones sean visibles */
+  overflow: hidden;
+  /* Ajustar los botones de navegación */
+  /* Botón de navegación exclusivo del carrusel lg */
+}
+main .s-catalogo .swiper-container .swiper-button-prev,
+main .s-catalogo .swiper-container .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 10; /* Asegura que estén sobre el carrusel */
+}
+main .s-catalogo .swiper-container .lg-prev {
+  left: 10px;
+}
+main .s-catalogo .swiper-container .lg-next {
+  right: 10px;
+}
+main .s-catalogo .swiper-container .swiper-button-prev::after,
+main .s-catalogo .swiper-container .swiper-button-next::after {
+  font-size: 20px;
+  color: white;
+}
+main .s-catalogo .lg .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+main .s-catalogo .lg .swiper-slide-active,
+main .s-catalogo .lg .swiper-slide-prev,
+main .s-catalogo .lg .swiper-slide-next {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.2);
+}
+main .s-catalogo .swiper-slide a img {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+main .s-catalogo .swiper-slide a img:hover {
+  transform: scale(1.1);
+}
+main .carru-motos {
+  font-family: "DM Sans", sans-serif;
+}
+main .carru-motos div .linea {
+  justify-self: end;
+  margin-right: 150px;
+  background-color: white;
+  margin-top: 80px;
+}
+main .carru-motos div .linea .linea-rosa {
+  color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+main .carru-motos div .linea a {
+  background-color: white;
+  border-color: white;
+  font-family: "DM Sans", sans-serif;
+}
+main .carru-motos div .linea .active {
+  background-color: grey;
+}
+main .carru-motos .imagenbghonda {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .carru-motos .imagenbghonda h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+}
+main .carru-motos .swiper-container {
+  justify-self: center;
+  width: 90%;
+  height: 500px;
+  padding: 20px 0;
+  position: relative; /* Necesario para los botones */
+  overflow: hidden;
+  /* Ajuste para los botones de navegación del segundo carrusel */
+}
+main .carru-motos .swiper-container .moto-prev,
+main .carru-motos .swiper-container .moto-next {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+main .carru-motos .swiper-container .moto-prev {
+  left: 10px;
+}
+main .carru-motos .swiper-container .moto-next {
+  right: 10px;
+}
+main .carru-motos .swiper-container .swiper-button-prev::after,
+main .carru-motos .swiper-container .swiper-button-next::after {
+  font-size: 20px;
+  color: white;
+}
+main .carru-motos .moto .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+main .carru-motos .moto .swiper-slide h5 {
+  color: grey;
+  margin-top: 30px;
+}
+main .carru-motos .moto .swiper-slide img {
+  width: 400px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+main .carru-motos .moto .swiper-slide img:hover {
+  transform: scale(1.1);
+}
+main .carru-motos .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .carru-motos .carousel-item img {
+  width: 33.33%;
+  object-fit: cover;
+  width: 100px;
+}
+main .sect-yt {
+  margin-right: 0;
+}
+main .sect-yt .vid-container {
+  width: 50%;
+}
+main .sect-yt .vid-container .video-yt {
+  width: 100%;
+  height: 600px;
+}
+main .sect-yt .yt-txt2 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+  margin-top: -6px;
+}
+main .sect-yt .yt-txt2 h2, main .sect-yt .yt-txt2 p {
+  color: white;
+  align-self: self-end;
+  width: 60%;
+  text-align: end;
+  margin-right: 80px;
+}
+main .sect-yt .yt-txt2 h2 {
+  font-size: 3rem;
+}
+main .sect-yt .yt-txt2 p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: grey;
+}
+main .casa2 {
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 80px;
+}
+main .casa2 .contado-iz {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+main .casa2 .contado-iz img {
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+main .casa2 .contado-iz .c-contado {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .casa2 .contado-iz .c-contado h3 {
+  font-family: "DM Sans", sans-serif;
+  color: grey;
+}
+main .casa2 .contado-iz .c-contado .highlight {
+  color: black;
+  font-size: 2.5rem;
+}
+main .specs {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+main .specs h5 {
+  color: #cf0044;
+}
+
+main .soporte {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .soporte p {
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  width: 40%;
+  color: white;
+}
+main .soporte h3 {
+  color: white;
+  font-size: 2.4rem;
+}
+main .soporte .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+}
+main .soporte .boton:hover {
+  transform: scale(1.1);
+}
+main .cel-sop {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+main .cel-sop .num-sop {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+main .cel-sop .num-sop h5 {
+  color: #cf0044;
+}
+main .cel-sop .jus-sop {
+  width: 40%;
+}
+
+main .contacto-form {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+main .contacto-form h3 {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 3rem;
+}
+main .contacto-form .formulario {
+  text-align: left;
+  border-radius: 50px;
+  padding: 20px;
+  width: 20%;
+  height: 500px;
+  justify-self: center;
+  background-color: grey;
+  color: white;
+  margin-right: 200px;
+  align-content: center;
+}
+main .contacto-form .formulario .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+}
+main .contacto-form .formulario .boton:hover {
+  transform: scale(1.1);
+}
+main .contacto-form .imagenbg3 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .formulario2 {
+  margin-top: 80px;
+  text-align: left;
+  border-radius: 50px;
+  padding: 20px;
+  width: 20%;
+  height: 500px;
+  justify-self: center;
+  background-color: grey;
+  color: white;
+  align-content: center;
+}
+main .formulario2 .boton {
+  background-color: #cf0044;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: large;
+  border-color: #cf0044;
+}
+main .formulario2 .boton:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  main .formulario2 {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  main .form-page h3 {
+    text-align: center;
+  }
+  main .s-catalogo .n-catalogo p {
+    width: 90%;
+  }
+  main .s-catalogo .boton {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  main .s-catalogo .lg {
+    height: 100px;
+    width: 95%;
+    justify-self: center;
+  }
+  main .s-catalogo .lg .swiper-wrapper img {
+    width: 60px;
+    height: 60px;
+  }
+  main .s-catalogo .lg .lg-prev,
+  main .s-catalogo .lg .lg-next {
+    width: 0;
+    height: 0;
+  }
+  main .carru-motos div .linea {
+    margin-right: 0;
+    justify-self: center;
+  }
+  main .carru-motos .moto .swiper-slide img {
+    width: 120px;
+  }
+  main .carru-motos .swiper-container {
+    height: 200px;
+    width: 95%;
+    justify-self: center;
+  }
+  main .carru-motos .swiper-container .moto-prev,
+  main .carru-motos .swiper-container .moto-next {
+    width: 0px;
+    height: 0px;
+  }
+  main .casa {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  main .casa .carrusel-txt {
+    margin-left: 0;
+    width: 90%;
+    justify-items: center;
+    text-align: center;
+  }
+  main .casa .carrusel-txt h1, main .casa .carrusel-txt p {
+    width: 100%;
+  }
+  main .casa .carrusel-txt .boton {
+    margin-right: 0;
+  }
+  main .casa .carousel-container {
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+  }
+  main .casa .carousel-thumbnail {
+    width: 90px;
+    height: 90px;
+  }
+  main .sect-yt {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  main .sect-yt .yt-txt2 {
+    width: 100%;
+    height: 400px;
+  }
+  main .sect-yt .yt-txt2 h2, main .sect-yt .yt-txt2 p {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+  main .sect-yt .yt-txt2 .boton {
+    margin: 0;
+    align-self: center;
+  }
+  main .sect-yt .yt-txt {
+    width: 100%;
+    justify-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+  main .sect-yt .yt-txt p, main .sect-yt .yt-txt h2, main .sect-yt .yt-txt h3 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 0;
+  }
+  main .sect-yt .yt-txt h3 {
+    font-size: 2rem;
+  }
+  main .sect-yt .yt-txt .boton {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  main .sect-yt .vid-container {
+    width: 100%;
+  }
+  main .sect-yt .vid-container .yt-vid {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  main .sect-yt .vid-container .video-yt {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+  main .casa2 .contado-iz {
+    width: 90%;
+    margin: 0;
+  }
+  main .casa2 .contado-iz img {
+    margin: 0;
+  }
+  main .casa2 .contado-iz .c-contado {
+    flex-direction: column;
+    margin: 0;
+  }
+  main .casa2 .contado-iz .c-contado .boton {
+    margin: 0;
+  }
+  main .specs {
+    flex-direction: column;
+  }
+  main .ubi {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+  }
+  main .ubi .ubi-txt {
+    width: 100%;
+    margin-left: 0;
+    margin: 0;
+    text-align: center;
+    justify-items: center;
+    padding: 0;
+  }
+  main .ubi .ubi-txt h2, main .ubi .ubi-txt p {
+    margin: 0;
+    text-align: center;
+    justify-items: center;
+    padding: 0;
+    width: 100%;
+  }
+  main .ubi .map {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+  main .ubi .map .mapit {
+    width: 100%;
+    height: 300px;
+  }
+  main .somos {
+    flex-direction: column;
+  }
+  main .somos .imagenbg {
+    width: 100%;
+    height: 250px;
+  }
+  main .somos .somos-txt {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  main .pq-nos {
+    margin-top: 20px;
+  }
+  main .pq-nos .imagenbg2 {
+    width: 100%;
+    height: 150px;
+  }
+  main .porque {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  main .porque h6,
+  main .porque p {
+    width: 90%;
+  }
+  main .moto {
+    flex-direction: column;
+  }
+  main .moto .moto-img {
+    width: 100%;
+    height: 300px;
+  }
+  main .moto .moto-img img {
+    height: 300px;
+  }
+  main .moto .moto-txt {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  main .moto .moto-txt h5, main .moto .moto-txt p {
+    justify-self: center;
+    width: 100%;
+  }
+  main .moto .moto-txt .boton {
+    margin-right: 0;
+  }
+  main .soporte p {
+    width: 90%;
+  }
+  main .cel-sop {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  main .cel-sop .num-sop {
+    flex-direction: column;
+    margin: 0;
+  }
+  main .cel-sop .jus-sop {
+    width: 90%;
+  }
+  main .contacto-form {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  main .contacto-form .imagenbg3 {
+    width: 100%;
+    height: 300px;
+  }
+  main .contacto-form .formulario {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  main .sect-yt2 {
+    width: 100%;
+  }
+  main .sect-yt2 h2, main .sect-yt2 h3, main .sect-yt2 p {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+    height: 200px;
+    margin-top: 30px;
+  }
+  footer div .card {
+    height: 55px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  footer img {
+    height: 100px;
+    width: auto;
+  }
+  header .logo {
+    width: 150px;
+  }
+  header .navbar-collapse {
+    text-align: right;
+  }
+  header .navbar-collapse .navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea los elementos a la derecha */
+  }
+}
+
+/*# sourceMappingURL=estilos.cs.map */

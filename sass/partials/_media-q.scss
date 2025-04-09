@@ -178,6 +178,15 @@
                     }
                 }
             }
+
+            .carousel-container {
+                margin-right: 0;
+                .carousel-inner {
+                    img {
+                        height: 350px;
+                    }
+                }
+            }
         }
 
         .specs{

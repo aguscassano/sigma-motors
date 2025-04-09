@@ -603,6 +603,10 @@ main .casa2 {
   width: 100%;
   font-family: "DM Sans", sans-serif;
   margin-top: 80px;
+  /* Estilo para las miniaturas (previsualización de las imágenes) */
+  /* Efecto de agrandado al pasar el ratón */
+  /* Estilo del carrusel */
+  /* Controles del carrusel */
 }
 main .casa2 .contado-iz {
   display: flex;
@@ -627,6 +631,50 @@ main .casa2 .contado-iz .c-contado h3 {
 main .casa2 .contado-iz .c-contado .highlight {
   color: black;
   font-size: 2.5rem;
+}
+main .casa2 .carousel-container {
+  margin-right: 0;
+  position: relative;
+  height: 600px;
+  width: 600px;
+  margin-right: 80px;
+}
+main .casa2 .carousel-container .carousel-inner img {
+  height: 600px;
+  width: 600px;
+}
+main .casa2 .carousel-thumbnails {
+  position: absolute;
+  bottom: 0;
+  /* Eleva las miniaturas sobre el carrusel */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
+  /* Las miniaturas deben estar encima del carrusel */
+  padding-bottom: 10px;
+}
+main .casa2 .carousel-thumbnail {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+main .casa2 .carousel-thumbnail:hover {
+  transform: scale(1.1);
+}
+main .casa2 #carouselExample {
+  width: 100%;
+  overflow: hidden;
+}
+main .casa2 .carousel-control-prev,
+main .casa2 .carousel-control-next {
+  z-index: 3;
+  /* Asegura que los controles del carrusel estén encima */
 }
 main .specs {
   font-family: "DM Sans", sans-serif;
@@ -902,6 +950,12 @@ main .formulario2 .boton:hover {
   }
   main .casa2 .contado-iz .c-contado .boton {
     margin: 0;
+  }
+  main .casa2 .carousel-container {
+    margin-right: 0;
+  }
+  main .casa2 .carousel-container .carousel-inner img {
+    height: 350px;
   }
   main .specs {
     flex-direction: column;
