@@ -155,7 +155,7 @@ header a {
   font-family: "DM Sans", sans-serif;
 }
 header .logo {
-  width: 250px;
+  width: 200px;
   height: auto;
 }
 
@@ -178,8 +178,8 @@ footer .vacio img {
   width: 220px;
 }
 footer img {
-  height: 100px;
-  width: auto;
+  width: 200px;
+  height: auto;
 }
 footer div .card {
   width: fit-content;

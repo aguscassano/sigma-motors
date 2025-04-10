@@ -63,7 +63,7 @@
             <div id="imagenbg3" class="imagenbg3" style="background-image: url('../media/8.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; ">
                 <h3>CONTÁCTANOS</h3>
             </div>
-            <div class="formulario">
+            <form class="formulario" action="https://formsubmit.co/your@email.com" method="POST">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre completo</label>
                     <input type="email" class="form-control" id="exampleFormControl">
@@ -77,7 +77,10 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary boton">Enviar</button>
-            </div>
+
+                <input type="hidden" name="_next" value="volver-a-contacto">  
+                <input type="hidden" name="_captcha" value="false">
+            </form>
         </section>
     </main>
 
