@@ -62,21 +62,24 @@
         <div id="imagenbg2" class="imagenbg2 soporte form-page" style="background-image: url('../media/7.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; ">
             <h3>COMPRÁ DE CONTADO</h3>
         </div>
-        <div class="formulario2">
+        <form class="formulario2" action="https://formsubmit.co/your@email.com" method="POST">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre completo</label>
-                <input type="email" class="form-control" id="exampleFormControl">
+                <input type="email" class="form-control" id="exampleFormControl" name="nombre">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Número de telefono</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1">
+                <input type="number" class="form-control" id="exampleFormControlInput1" name="telefono">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="consulta"></textarea>
             </div>
             <button type="submit" class="btn btn-primary boton">Enviar</button>
-        </div>
+
+            <input type="hidden" name="_next" value="volver-a-contacto">  
+            <input type="hidden" name="_captcha" value="false">
+        </form>
     </main>
 
     <footer>

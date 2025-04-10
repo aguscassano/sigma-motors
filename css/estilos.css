@@ -391,8 +391,18 @@ main section .boton:hover {
   background-color: #cf0044;
   border-color: #cf0044;
 }
+main section .boton2:hover {
+  transform: scale(1.1);
+  background-color: #cf0044;
+  border-color: #cf0044;
+}
 main section .boton3 {
   margin-right: 80px;
+}
+main section .boton3:hover {
+  transform: scale(1.1);
+  background-color: #cf0044;
+  border-color: #cf0044;
 }
 main .s-catalogo {
   font-family: "DM Sans", sans-serif;
