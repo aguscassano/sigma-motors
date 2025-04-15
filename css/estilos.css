@@ -555,6 +555,7 @@ main .carru-motos .moto .swiper-slide {
 main .carru-motos .moto .swiper-slide h5 {
   color: grey;
   margin-top: 30px;
+  text-align: center;
 }
 main .carru-motos .moto .swiper-slide img {
   width: 400px;
@@ -969,6 +970,8 @@ main .formulario2 .boton:hover {
   }
   main .specs {
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   main .ubi {
     flex-direction: column;
