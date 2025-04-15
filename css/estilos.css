@@ -29,6 +29,9 @@ main .casa .carrusel-txt .highlight {
 main .casa .carrusel-txt h1, main .casa .carrusel-txt p {
   width: 70%;
 }
+main .casa .carrusel-txt p {
+  font-size: 1.5rem;
+}
 main .casa .carrusel-txt .boton {
   background-color: #cf0044;
   font-family: "DM Sans", sans-serif;
@@ -59,8 +62,8 @@ main .casa .carousel-thumbnails {
   padding-bottom: 10px;
 }
 main .casa .carousel-thumbnail {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   object-fit: cover;
   border-radius: 10px;
   /* Bordes redondeados */
@@ -80,7 +83,6 @@ main .casa .carousel-control-next {
   /* Asegura que los controles del carrusel estén encima */
 }
 main .sect-yt {
-  margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,6 +95,7 @@ main .sect-yt .yt-txt {
 main .sect-yt .yt-txt p {
   width: 60%;
   margin-left: 100px;
+  font-size: 1.5rem;
 }
 main .sect-yt .yt-txt .boton {
   background-color: #cf0044;
@@ -126,7 +129,6 @@ main .sect-yt .vid-container .yt-vid {
   margin-right: 0;
 }
 main .ubi {
-  margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -155,12 +157,12 @@ header a {
   font-family: "DM Sans", sans-serif;
 }
 header .logo {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
 footer {
-  margin-top: 150px;
+  margin-top: 20px;
   background-color: #cf0044;
   height: 160px;
   justify-items: center;
@@ -1101,7 +1103,7 @@ main .formulario2 .boton:hover {
     margin-top: 10px;
   }
   footer img {
-    height: 100px;
+    height: 60px;
     width: auto;
   }
   header .logo {
