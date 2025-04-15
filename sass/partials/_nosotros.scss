@@ -29,7 +29,6 @@ main {
 
     .pq-nos{
         font-family: $letra;
-        margin-top: 150px;
         display: flex;
         flex-direction: column;
 
@@ -51,7 +50,6 @@ main {
         align-items: center;
         margin-left: 80px;
         margin-right: 80px;
-        margin-top: 50px;
 
         div {
             display: flex;
@@ -84,7 +82,7 @@ main {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 80px;
+        
 
         .moto-img {
             width: 50%;

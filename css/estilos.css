@@ -27,7 +27,7 @@ main .casa .carrusel-txt .highlight {
   font-weight: bolder;
 }
 main .casa .carrusel-txt h1, main .casa .carrusel-txt p {
-  width: 70%;
+  width: 80%;
 }
 main .casa .carrusel-txt p {
   font-size: 1.5rem;
@@ -140,7 +140,8 @@ main .ubi .ubi-txt {
   font-family: "DM Sans", sans-serif;
 }
 main .ubi .ubi-txt p {
-  width: 60%;
+  width: 80%;
+  font-size: 1.5rem;
 }
 main .ubi .ubi-txt .highlight {
   font-weight: bolder;
@@ -282,7 +283,6 @@ main .somos .somos-txt .highlight {
 }
 main .pq-nos {
   font-family: "DM Sans", sans-serif;
-  margin-top: 150px;
   display: flex;
   flex-direction: column;
 }
@@ -302,7 +302,6 @@ main .porque {
   align-items: center;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: 50px;
 }
 main .porque div {
   display: flex;
@@ -332,7 +331,6 @@ main .moto {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 80px;
 }
 main .moto .moto-img {
   width: 50%;
