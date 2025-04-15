@@ -307,17 +307,20 @@ main .porque div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 20%;
+  height: auto;
 }
 main .porque div h6,
 main .porque div p {
   text-align: center;
-  width: 70%;
+  width: 100%;
   font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
 }
 main .porque div h6 {
   color: #cf0044;
   font-weight: bold;
-  font-size: large;
+  font-size: 0.9rem;
 }
 main .porque div img {
   margin-top: 20px;
@@ -364,12 +367,12 @@ main .moto .moto-txt .highlight {
 }
 main .moto .moto-txt h5 {
   font-size: 3rem;
-  width: 60%;
+  width: 70%;
   justify-self: end;
 }
 main .moto .moto-txt p {
   font-size: 1.5rem;
-  width: 60%;
+  width: 80%;
   justify-self: end;
   color: grey;
 }
@@ -1026,6 +1029,9 @@ main .formulario2 .boton:hover {
     flex-direction: column;
     margin-left: 0;
     margin-right: 0;
+  }
+  main .porque div {
+    width: 90%;
   }
   main .porque h6,
   main .porque p {

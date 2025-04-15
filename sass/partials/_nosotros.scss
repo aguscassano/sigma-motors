@@ -55,17 +55,19 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            width: 20%;
+            height: auto;
             h6,
             p {
                 text-align: center;
-                width: 70%;
+                width: 100%;
                 font-family: $letra;
+                font-size: 0.9rem;
             }
             h6 {
                 color: $rosa;
                 font-weight: bold;
-                font-size: large;
+                font-size: 0.9rem;
             }
             img {
                 margin-top: 20px;
@@ -117,12 +119,12 @@ main {
             }
             h5 {
                 font-size: 3rem;
-                width: 60%;
+                width: 70%;
                 justify-self: end;
             }
             p {
                 font-size: 1.5rem;
-                width: 60%;
+                width: 80%;
                 justify-self: end;
                 color: grey;
             }
