@@ -880,7 +880,8 @@ main .formulario2 .boton:hover {
     justify-items: center;
     text-align: center;
   }
-  main .casa .carrusel-txt h1, main .casa .carrusel-txt p {
+  main .casa .carrusel-txt h1,
+  main .casa .carrusel-txt p {
     width: 100%;
   }
   main .casa .carrusel-txt .boton {
@@ -906,7 +907,8 @@ main .formulario2 .boton:hover {
     width: 100%;
     height: 400px;
   }
-  main .sect-yt .yt-txt2 h2, main .sect-yt .yt-txt2 p {
+  main .sect-yt .yt-txt2 h2,
+  main .sect-yt .yt-txt2 p {
     align-self: center;
     text-align: center;
     width: 100%;
@@ -925,7 +927,9 @@ main .formulario2 .boton:hover {
     justify-content: center;
     padding: 0;
   }
-  main .sect-yt .yt-txt p, main .sect-yt .yt-txt h2, main .sect-yt .yt-txt h3 {
+  main .sect-yt .yt-txt p,
+  main .sect-yt .yt-txt h2,
+  main .sect-yt .yt-txt h3 {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -990,7 +994,8 @@ main .formulario2 .boton:hover {
     justify-items: center;
     padding: 0;
   }
-  main .ubi .ubi-txt h2, main .ubi .ubi-txt p {
+  main .ubi .ubi-txt h2,
+  main .ubi .ubi-txt p {
     margin: 0;
     text-align: center;
     justify-items: center;
@@ -1054,7 +1059,8 @@ main .formulario2 .boton:hover {
     margin-right: 0;
     margin-left: 0;
   }
-  main .moto .moto-txt h5, main .moto .moto-txt p {
+  main .moto .moto-txt h5,
+  main .moto .moto-txt p {
     justify-self: center;
     width: 100%;
   }
@@ -1093,7 +1099,9 @@ main .formulario2 .boton:hover {
   main .sect-yt2 {
     width: 100%;
   }
-  main .sect-yt2 h2, main .sect-yt2 h3, main .sect-yt2 p {
+  main .sect-yt2 h2,
+  main .sect-yt2 h3,
+  main .sect-yt2 p {
     width: 100%;
   }
   footer {
@@ -1115,12 +1123,30 @@ main .formulario2 .boton:hover {
   }
   header .navbar-collapse {
     text-align: right;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    z-index: 1000;
   }
   header .navbar-collapse .navbar-nav {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Alinea los elementos a la derecha */
+    align-items: flex-end;
+    margin-right: 10px;
+  }
+  header .navbar-collapse .navbar-nav li {
+    text-align: end;
+  }
+  header .navbar-collapse .navbar-nav li ul {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  header .navbar-collapse .navbar-nav li a {
+    margin-right: 20px;
   }
 }
 

@@ -5,16 +5,17 @@
             margin-right: 0;
             margin-top: 20px;
         }
-        .form-page{
-            h3{
+
+        .form-page {
+            h3 {
                 text-align: center;
             }
         }
-        
+
         .s-catalogo {
             .n-catalogo {
-                p{
-                    width: 90%;    
+                p {
+                    width: 90%;
                 }
             }
 
@@ -28,7 +29,7 @@
                 width: 95%;
                 justify-self: center;
 
-                .swiper-wrapper{
+                .swiper-wrapper {
                     img {
                         width: 60px;
                         height: 60px;
@@ -40,48 +41,53 @@
                     width: 0;
                     height: 0;
                 }
-                
+
             }
         }
-        .carru-motos{
+
+        .carru-motos {
             div {
                 .linea {
                     margin-right: 0;
                     justify-self: center;
                 }
             }
-            .moto .swiper-slide{
+
+            .moto .swiper-slide {
                 img {
                     width: 120px;
                 }
             }
-            
-            .swiper-container
-            {
-            height: 200px;
-            width: 95%;
-            justify-self: center;
-            .moto-prev,
-            .moto-next {
-                width: 0px;
-                height: 0px;
-            }
+
+            .swiper-container {
+                height: 200px;
+                width: 95%;
+                justify-self: center;
+
+                .moto-prev,
+                .moto-next {
+                    width: 0px;
+                    height: 0px;
+                }
             }
         }
-        
+
         .casa {
             flex-direction: column;
             justify-content: center;
             margin-top: 40px;
-            .carrusel-txt{
-                margin-left:0;
+
+            .carrusel-txt {
+                margin-left: 0;
                 width: 90%;
                 justify-items: center;
                 text-align: center;
-                h1, p {
+
+                h1,
+                p {
                     width: 100%;
                 }
-                
+
                 .boton {
                     margin-right: 0;
                 }
@@ -93,7 +99,7 @@
                 height: auto;
             }
 
-            .carousel-thumbnail{
+            .carousel-thumbnail {
                 width: 90px;
                 height: 90px;
             }
@@ -106,15 +112,18 @@
             margin-top: 20px;
             width: 100%;
 
-            .yt-txt2{
+            .yt-txt2 {
                 width: 100%;
                 height: 400px;
-                h2, p{
+
+                h2,
+                p {
                     align-self: center;
                     text-align: center;
                     width: 100%;
                     margin-right: 0;
                 }
+
                 .boton {
                     margin: 0;
                     align-self: center;
@@ -130,29 +139,35 @@
                 justify-content: center;
                 padding: 0;
 
-                p, h2, h3 {
+                p,
+                h2,
+                h3 {
                     margin-left: 0;
                     margin-right: 0;
                     width: 100%;
                     padding: 0;
                 }
+
                 h3 {
                     font-size: 2rem;
                 }
-                .boton{
+
+                .boton {
                     margin-left: 0;
                     margin-right: 0;
                 }
             }
-            
+
             .vid-container {
                 width: 100%;
+
                 .yt-vid {
                     width: 100%;
                     height: auto;
                     margin-top: 20px;
                 }
-                .video-yt{
+
+                .video-yt {
                     width: 100%;
                     height: 300px;
                     margin-top: 20px;
@@ -165,7 +180,7 @@
                 width: 90%;
                 margin: 0;
 
-                img{
+                img {
                     margin: 0;
                 }
 
@@ -173,7 +188,7 @@
                     flex-direction: column;
                     margin: 0;
 
-                    .boton{
+                    .boton {
                         margin: 0;
                     }
                 }
@@ -181,6 +196,7 @@
 
             .carousel-container {
                 margin-right: 0;
+
                 .carousel-inner {
                     img {
                         height: 350px;
@@ -189,17 +205,18 @@
             }
         }
 
-        .specs{
+        .specs {
             flex-direction: column;
             margin-left: 20px;
             margin-right: 20px;
         }
-        
+
         .ubi {
             flex-direction: column;
             margin: 0;
             margin-top: 20px;
             padding: 0;
+
             .ubi-txt {
                 width: 100%;
                 margin-left: 0;
@@ -207,7 +224,9 @@
                 text-align: center;
                 justify-items: center;
                 padding: 0;
-                h2,p {
+
+                h2,
+                p {
                     margin: 0;
                     text-align: center;
                     justify-items: center;
@@ -215,7 +234,8 @@
                     width: 100%;
                 }
             }
-            .map{
+
+            .map {
                 width: 100%;
                 height: 300px;
                 margin-top: 20px;
@@ -229,7 +249,7 @@
 
         .somos {
             flex-direction: column;
-    
+
             .imagenbg {
                 width: 100%;
                 height: 250px;
@@ -245,7 +265,7 @@
         .pq-nos {
             margin-top: 20px;
 
-            .imagenbg2{
+            .imagenbg2 {
                 width: 100%;
                 height: 150px;
             }
@@ -255,9 +275,11 @@
             flex-direction: column;
             margin-left: 0;
             margin-right: 0;
-            div{
+
+            div {
                 width: 90%;
             }
+
             h6,
             p {
                 width: 90%;
@@ -270,10 +292,12 @@
             .moto-img {
                 width: 100%;
                 height: 300px;
-                img{
+
+                img {
                     height: 300px;
                 }
             }
+
             .moto-txt {
                 width: 90%;
                 text-align: center;
@@ -281,11 +305,13 @@
                 margin-right: 0;
                 margin-left: 0;
 
-                h5, p {
+                h5,
+                p {
                     justify-self: center;
                     width: 100%;
                 }
-                .boton{
+
+                .boton {
                     margin-right: 0;
                 }
             }
@@ -296,8 +322,8 @@
                 width: 90%;
             }
         }
-        
-        .cel-sop{
+
+        .cel-sop {
             flex-direction: column;
             margin: 0;
             margin-top: 20px;
@@ -307,7 +333,8 @@
                 flex-direction: column;
                 margin: 0;
             }
-            .jus-sop{
+
+            .jus-sop {
                 width: 90%;
             }
         }
@@ -315,7 +342,8 @@
         .contacto-form {
             flex-direction: column;
             margin-top: 15px;
-            .imagenbg3{
+
+            .imagenbg3 {
                 width: 100%;
                 height: 300px;
             }
@@ -326,11 +354,14 @@
                 margin-top: 20px;
             }
         }
-        .sect-yt2{
-            width: 100%;
-            
 
-            h2, h3, p {
+        .sect-yt2 {
+            width: 100%;
+
+
+            h2,
+            h3,
+            p {
                 width: 100%;
             }
         }
@@ -340,8 +371,9 @@
         flex-direction: column;
         height: 200px;
         margin-top: 30px;
+
         div {
-            .card{
+            .card {
                 height: 55px;
                 margin-bottom: 10px;
                 margin-top: 10px;
@@ -357,18 +389,40 @@
     header {
         .logo {
             width: 150px;
-            
+
         }
+
         .navbar-collapse {
             text-align: right;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            margin-right: 10px;
+            background-color: #f8f9fa;
+            z-index: 1000;
+
             .navbar-nav {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-end; /* Alinea los elementos a la derecha */
+                align-items: flex-end;
+                margin-right: 10px;
+
+                li {
+                    text-align: end;
+                    ul {
+                        background-color:#f8f9fa;
+                        border-color:#f8f9fa ;
+                    }
+                    a {
+                        margin-right: 20px;
+                    }
+
+                }
             }
         }
     }
-    
+
 
 }
