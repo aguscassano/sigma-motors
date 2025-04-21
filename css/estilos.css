@@ -735,18 +735,21 @@ main .soporte .boton:hover {
 main .cel-sop {
   font-family: "DM Sans", sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 main .cel-sop .num-sop {
   display: flex;
-  margin-left: 20px;
+  margin-left: 0px;
   align-items: center;
   width: 100%;
   justify-content: space-around;
+  text-align: center;
+}
+main .cel-sop .num-sop div {
+  width: 30%;
 }
 main .cel-sop .num-sop h5 {
   color: #cf0044;
@@ -1079,6 +1082,9 @@ main .formulario2 .boton:hover {
   main .cel-sop .num-sop {
     flex-direction: column;
     margin: 0;
+  }
+  main .cel-sop .num-sop div {
+    width: 90%;
   }
   main .cel-sop .jus-sop {
     width: 90%;
